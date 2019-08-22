@@ -16,7 +16,7 @@ namespace SamuraiApp.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=tcp:peitycdvj2.database.windows.net,1433;Initial Catalog=SamuraiAppData;Persist Security Info=False;User ID=cbamanager;Password=Feyenoord1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            optionsBuilder.UseSqlServer("Server=tcp:peitycdvj2.database.windows.net,1433;Initial Catalog=SamuraiAppData;Persist Security Info=False;User ID=cbamanager;Password=****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }
 }
